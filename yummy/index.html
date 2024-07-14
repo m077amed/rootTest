@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css -->
+    <link rel="shortcut icon" href="https://routeegy.github.io/YummyExam/imgs/logo.png" type="image/x-icon">
+     <link rel="stylesheet" href="css/master.css">
+    <!-- end custom css -->
+
+    <!-- bootstrap  -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- end bootstrap  -->
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <!-- end fonts -->
+    
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fontAwsome -->
+
+    <title>Yummy</title>
+</head>
+<body class="bg-dark">
+
+    <div class="sideBar px-4">
+        <div class="linksBox bg-dark py-5 bg-danger d-flex justify-content-between flex-column">
+            <ul class="p-0">
+                <li class="mt-4 searchLink">search</li>
+                <li class="mt-4 categoryLink">category</li>
+                <li class="mt-4 areaLink">area</li>
+                <li class="mt-4 ingredientLink">Ingredients</li>
+                <li class="mt-4 contactLink">contact us</li>
+            </ul>
+            <div class="footer">
+                <div class="sideBarFooterIcon d-flex ">
+                    <span><div class="world"><i class="fa-brands fa-facebook mx-1"></i></div></span>
+                    <span><div class="world"><i class="fa-brands fa-twitter mx-1"></i></div></span>
+                    <span><div class="world"><i class="fa-solid fa-globe mx-1"></i></div></span>
+                </div>
+                <div class="copyRight">
+                    <p class="w-75">Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="toggleBox center flex-column justify-content-between py-5">
+            <div class="logo text-center">
+                <img src="https://routeegy.github.io/YummyExam/imgs/logo.png" class="w-75 " alt="logoImg">
+            </div>
+            <div class="toggleButton fs-2">
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+            <div class="icons">
+                <div class="world"><i class="fa-solid fa-globe"></i></div>
+                <div class="world"><i class="fa-solid fa-share-nodes"></i></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container my-5">
+        <div class="row" id="content">
+            <div id="search-results" class="mt-5 d-flex flex-wrap"></div>
+            
+        </div>
+    </div>
+
+
+    <!-- bootstrap -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap -->
+     <!-- jquery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- jquery -->
+
+    <script src="js/app.js"></script>
+    <script src="js/Api.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/area.js"></script>
+    <script src="js/ingredients.js"></script>
+    <script src="js/contact.js"></script>
+    
+    
+</body>
+</html>
+
+<!-- 
+<div class="col-3 center flex-column area">
+    <div class="icon">
+        <i class="fa-solid fa-house-fire text-white AreaIcon "></i>
+    </div>
+    <div class="name text-white fs-2 mt-2 text-capitalize">
+        egypt
+    </div>
+</div> -->
+ 
+
+
+<!-- card -->
+
+
+<!-- <div class="col-3 p-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div>
+<div class="col-3 my-3">
+    <div class="meal-card position-relative overflow-hidden rounded">
+        <div class="img-container">
+            <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+        </div>
+        <div class="overlay center position-absolute w-100 h-100">tamiya</div>
+    </div>
+</div> -->
+
+
+<!-- details -->
+
+<!-- <div class="col-4">
+    <div class="img-container overflow-hidden rounded">
+        <img src="imgs/4pqimk1683207418.jpg" class="w-100" alt="">
+    </div>
+    <div class="mealName text-white fs-2 text-center mt-3">Tamiya</div>
+</div>
+<div class="col-8 text-white">
+    <h1>Instructions</h1>
+    <p>oak the beans in water to cover overnight.Drain. If skinless beans are unavailable, rub to loosen the skins, then discard the skins. Pat the beans dry with a towel. Grind the beans in a food mill or meat grinder.If neither appliance is available, process them in a food processor but only until the beans form a paste. (If blended too smoothly, the batter tends to fall apart during cooking.) Add the scallions, garlic, cilantro, cumin, baking powder, cayenne, salt, pepper, and coriander, if using. Refrigerate for at least 30 minutes. Shape the bean mixture into 1-inch balls.Flatten slightly and coat with flour. Heat at least 1½-inches of oil over medium heat to 365 degrees. Fry the patties in batches, turning once, until golden brown on all sides, about 5 minutes.Remove with a wire mesh skimmer or slotted spoon. Serve as part of a meze or in pita bread with tomato-cucumber salad and tahina sauce.</p>
+    <div class="location fs-3 fw-bold my-1">Area : <span>Egiptian</span></div>
+    <div class="Category fs-3 fw-bold my-1">Category  : <span>Vegetarian</span></div>
+    <div class="Recipes fs-3 fw-bold my-1">Recipes  : 
+       <div class="integrated d-flex flex-wrap">
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">3 cups Broad Beans</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">2 tsp Cumin</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">1/4 cup Parsley</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">4 Garlic Clove</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">6 Spring Onions</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">3 cups Broad Beans</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">3 cups Broad Beans</div>
+        <div class="text-white bg-info rounded m-2 fs-6 px-2 py-1">3 cups Broad Beans</div>
+       </div>
+    </div>
+    <div class="Tags  fs-3 fw-bold my-1">Tags  : 
+        <div class="buttons">
+            <div class="btn btn-success">source</div>
+            <div class="btn btn-danger">youtube</div>
+        </div>
+    </div>
+</div> --> 
